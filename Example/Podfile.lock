@@ -1,0 +1,16 @@
+PODS:
+  - SOCR (0.1.0)
+
+DEPENDENCIES:
+  - SOCR (from `../`)
+
+EXTERNAL SOURCES:
+  SOCR:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SOCR: de3dca5af65d7a9c6ff7b89d16b1ffdf69dcf9c0
+
+PODFILE CHECKSUM: a5bb117fbb3e1e1410af9c54d842ec216e13e53d
+
+COCOAPODS: 1.4.0.beta.2

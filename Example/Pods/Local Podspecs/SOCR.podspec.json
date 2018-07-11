@@ -1,0 +1,22 @@
+{
+  "name": "SOCR",
+  "version": "0.1.0",
+  "summary": "A short description of SOCR.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tianNanYiHao/SOCR",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tianNanYiHao": "851085835@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tianNanYiHao/SOCR.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SOCR/Classes/**/*"
+}
