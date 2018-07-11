@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     # 名字要一致
     s.name             = 'SOCR'
     # 版本要和git的tag版本一致
-    s.version          = '0.1.0'
+    s.version          = '0.2.0'
     # 描述
     s.summary          = '通付盾活体识别SDK二次封装'
 
