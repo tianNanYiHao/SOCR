@@ -1,5 +1,7 @@
 PODS:
-  - SOCR (0.1.0)
+  - Masonry (1.1.0)
+  - SOCR (0.1.0):
+    - Masonry
 
 DEPENDENCIES:
   - SOCR (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SOCR: de3dca5af65d7a9c6ff7b89d16b1ffdf69dcf9c0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SOCR: 48d7e1d7b62291529fc4ee6bd8a189d1fe7bffb7
 
 PODFILE CHECKSUM: a5bb117fbb3e1e1410af9c54d842ec216e13e53d
 

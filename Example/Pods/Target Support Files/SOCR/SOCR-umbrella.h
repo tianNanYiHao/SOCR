@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SOCR.h"
 
 FOUNDATION_EXPORT double SOCRVersionNumber;
 FOUNDATION_EXPORT const unsigned char SOCRVersionString[];

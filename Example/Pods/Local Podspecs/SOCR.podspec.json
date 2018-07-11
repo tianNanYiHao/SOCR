@@ -1,8 +1,8 @@
 {
   "name": "SOCR",
   "version": "0.1.0",
-  "summary": "A short description of SOCR.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "通付盾活体识别SDK二次封装",
+  "description": "描述信息:这是一个二次封装SDK的lib,将会用到很多著名第三方SDK,该功能用于打包包含这些著名第三方(该插件通过对引用的三方库进行重命名很好的解决了类库命名冲突的问题。http://www.cnblogs.com/brycezhang/p/4117180.html)",
   "homepage": "https://github.com/tianNanYiHao/SOCR",
   "license": {
     "type": "MIT",
@@ -12,11 +12,39 @@
     "tianNanYiHao": "851085835@qq.com"
   },
   "source": {
-    "git": "https://github.com/tianNanYiHao/SOCR.git",
+    "git": "/Users/tiannanyihao/Desktop/SOCR",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SOCR/Classes/**/*"
+  "source_files": "SOCR/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "SOCR": [
+      "SOCR/Assets/com.baidu.idl.face.faceSDK.bundle",
+      "SOCR/Assets/com.baidu.idl.face.model.bundle",
+      "SOCR/Assets/CWResource.bundle"
+    ]
+  },
+  "public_header_files": "SOCR/Classes/head/SOCR.h",
+  "static_framework": true,
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "SOCR/Classes/framework/IDLFaceSDK.framework",
+    "SOCR/Classes/framework/PayEgisFace.framework"
+  ],
+  "frameworks": [
+    "UIKit",
+    "CoreMedia",
+    "AVFoundation",
+    "Foundation"
+  ],
+  "libraries": "stdc++"
 }
