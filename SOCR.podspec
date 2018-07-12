@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     # 作者信息及邮箱
     s.author           = { 'tianNanYiHao' => '851085835@qq.com' }
-    # spec配置文件的位置
+    # spec配置文件的位置 (这里是绝对路径,文件位置变动需及时修改)
     s.source           = { :git => '/Users/tiannanyihao/Desktop/SOCR', :tag => s.version.to_s }
     # 媒体文件
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
