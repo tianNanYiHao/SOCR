@@ -142,3 +142,17 @@ SOCR is available under the MIT license. See the LICENSE file for more info.
 
 ## 以上
 **写了这些,仅仅是作为自己的一个记录,以便于后期再用的时候翻阅查看,有些地方并未讲的太详细.因为仅仅是供自己翻阅使用**
+
+
+## 补充
+打出的.framework添加到项目工程中去的时候, 还是报错了: 打出的静态库SOCR.framework中使用了Masonry, 项目工程中也使用了Masonry.
+报错在于两个库还是冲突了,这显然不符合预期,
+>解决方案:在项目工程中,other link 里面存在Masonry的相对路径
+>将项目中的 other link 保留 -ObjC,其他的删除即可
+>如图
+>
+
+
+/Users/tiannanyihao/Desktop/WechatIMG317.jpeg
+
+
