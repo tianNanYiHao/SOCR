@@ -8,7 +8,7 @@
 
 #import "OCRViewController.h"
 
-#import <Masonry.h>
+#import "Masonry.h"
 //a.导入通付盾活体识别头文件
 #import <PayEgisFace/PayegisFaceSDK.h>
 @interface OCRViewController ()
