@@ -1,8 +1,8 @@
 {
   "name": "SOCR",
-  "version": "0.2.0",
-  "summary": "通付盾活体识别SDK二次封装",
-  "description": "描述信息:这是一个二次封装SDK的lib,将会用到很多著名第三方SDK,该功能用于打包包含这些著名第三方(该插件通过对引用的三方库进行重命名很好的解决了类库命名冲突的问题。http://www.cnblogs.com/brycezhang/p/4117180.html)",
+  "version": "0.3.0",
+  "summary": "The SOCR include tfdSDK and Masonry",
+  "description": "TODO:               SOCR.framework ,need tfdSDK and Masonry. It is a test Static lib for Learn.",
   "homepage": "https://github.com/tianNanYiHao/SOCR",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "/Users/tiannanyihao/Desktop/SOCR",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,6 +21,7 @@
   "source_files": "SOCR/Classes/**/*.{h,m}",
   "resource_bundles": {
     "SOCR": [
+      "SOCR/Assets/*.png",
       "SOCR/Assets/com.baidu.idl.face.faceSDK.bundle",
       "SOCR/Assets/com.baidu.idl.face.model.bundle",
       "SOCR/Assets/CWResource.bundle"

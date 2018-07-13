@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
     # 名字要一致
     s.name             = 'SOCR'
     # 版本要和git的tag版本一致
-    s.version          = '0.2.0'
+    s.version          = '0.3.0'
     # 描述
-    s.summary          = '通付盾活体识别SDK二次封装'
+    s.summary          = 'The SOCR include tfdSDK and Masonry'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
     s.description      = <<-DESC
-    描述信息:这是一个二次封装SDK的lib,将会用到很多著名第三方SDK,该功能用于打包包含这些著名第三方(该插件通过对引用的三方库进行重命名很好的解决了类库命名冲突的问题。http://www.cnblogs.com/brycezhang/p/4117180.html)
-    DESC
+TODO:               SOCR.framework ,need tfdSDK and Masonry. It is a test Static lib for Learn.
+                        DESC
     
     # 主页信息网址
     s.homepage         = 'https://github.com/tianNanYiHao/SOCR'
@@ -41,13 +41,8 @@ Pod::Spec.new do |s|
     # 源文件 包含 h,m
     s.source_files = 'SOCR/Classes/**/*.{h,m}'
     # 资源文件 .png/.bundle等(多个)
-    # 'SOCR/Assets/*.png',
     s.resource_bundles = {
-    'SOCR' =>[
-    'SOCR/Assets/com.baidu.idl.face.faceSDK.bundle',
-    'SOCR/Assets/com.baidu.idl.face.model.bundle',
-    'SOCR/Assets/CWResource.bundle'
-    ]
+    'SOCR' =>['SOCR/Assets/*.png','SOCR/Assets/com.baidu.idl.face.faceSDK.bundle','SOCR/Assets/com.baidu.idl.face.model.bundle','SOCR/Assets/CWResource.bundle']
     }
     # 公开头文件 打包只公开特定的头文件
     s.public_header_files = 'SOCR/Classes/head/SOCR.h'
@@ -68,12 +63,11 @@ Pod::Spec.new do |s|
     s.dependency 'Masonry'
 
     # 第三方非开源framework(多个)
-    s.vendored_frameworks = [
-    'SOCR/Classes/framework/IDLFaceSDK.framework',
-    'SOCR/Classes/framework/PayEgisFace.framework'
-    ]
+    s.vendored_frameworks = ['SOCR/Classes/framework/IDLFaceSDK.framework','SOCR/Classes/framework/PayEgisFace.framework']
+
     # 系统动态库(多个)
     s.frameworks = 'UIKit','CoreMedia','AVFoundation','Foundation'
+    
     # 系统类库(多个) 注意:系统类库不需要写全名 去掉开头的lib
     s.libraries = 'stdc++'
 end
