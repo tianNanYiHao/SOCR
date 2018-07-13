@@ -8,32 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04A8A86450F0E10EAEFF90BA3AE99B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70B07F69E9A8D01AD67858A23230BAF /* Foundation.framework */; };
+		067229E58EFFAA14D72D915A1ED46A32 /* Pods-SOCR_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E57E0A42807C83A1F6E84F5618D6A /* Pods-SOCR_Tests-dummy.m */; };
 		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09892C6CAA9BF4D8F39E48F8653FD12A /* Pods-SOCR_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6DF2BA890AD684FEAAFA1915845C0D /* Pods-SOCR_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09892C6CAA9BF4D8F39E48F8653FD12A /* Pods-SOCR_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D098F4455FC1A049EF2BFDA4C6326FF5 /* Pods-SOCR_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20A7DAA9A3BA31C3EBD17AD707C95B6E /* FaceSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC0C573575C3A05D5C38715EB33DE07 /* FaceSDKManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD79163C1CB0F4E0A00EF1F3E45CE354 /* UIKit.framework */; };
+		1BC63E48D1CDA8DA91A1DA9FB527E314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A4B994AAA5BA80226E287ACBCDFE3 /* Foundation.framework */; };
+		20A7DAA9A3BA31C3EBD17AD707C95B6E /* FaceSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA04B801954A2E77955ABE0E3A58F0B3 /* FaceSDKManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21C0376B515207449FA76FC336DE20FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A4B994AAA5BA80226E287ACBCDFE3 /* Foundation.framework */; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		292D5A265377706FC1FE3FF45E9276AD /* SOCR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B48AF535D361B8130177A6B149A32AEA /* SOCR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CADC713CC81A1E778284A0C36A2518E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC378DE01359245057D20C67B82BE65 /* AVFoundation.framework */; };
-		3044223C73EBC0D433CE58707A5951FB /* SOCR.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A8281884045BFC24227E4D3033DF8E7 /* SOCR.bundle */; };
-		36CC1A1B421467283304B19570650870 /* CWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B118DD26AD711F8A160C8FBB5F5F1F26 /* CWResource.bundle */; };
-		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B50CF52050AF161A08CB70A1681D4D0 /* UIKit.framework */; };
-		400CF4D5C38296F04F23C0C61AC5D1D4 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 28598035F3D54D83B4A6B4C87396D591 /* Util.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70B07F69E9A8D01AD67858A23230BAF /* Foundation.framework */; };
-		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B9A6550EC8B6DF24450D4697512D2CD /* OCRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A638EF57EFB4BB72A83C088062C5B8B7 /* OCRViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BF6612FF00A71539DE6FC2CFC1F37EC /* com.baidu.idl.face.model.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDB48DAC128946658E14E3DB1E2C875E /* com.baidu.idl.face.model.bundle */; };
+		292D5A265377706FC1FE3FF45E9276AD /* SOCR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A06391E5258BBD15BBFE2FB50FAB74DD /* SOCR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3044223C73EBC0D433CE58707A5951FB /* SOCR.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C7E82FF00C5F41346E3CD59F77431A8D /* SOCR.bundle */; };
+		36CC1A1B421467283304B19570650870 /* CWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC0861C60D052F6D2618D21BF5E66DA7 /* CWResource.bundle */; };
+		400CF4D5C38296F04F23C0C61AC5D1D4 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = AC35ADC1E2F6D31F8EBD7DC8B29ED358 /* Util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9A6550EC8B6DF24450D4697512D2CD /* OCRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B427223A18974126A1234D46EC1DD0 /* OCRViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BF6612FF00A71539DE6FC2CFC1F37EC /* com.baidu.idl.face.model.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2BC35E0F2EA038506E2C476A55327 /* com.baidu.idl.face.model.bundle */; };
+		4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A4B994AAA5BA80226E287ACBCDFE3 /* Foundation.framework */; };
 		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E90457DDBFD6483BE6E251600E6DBF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70B07F69E9A8D01AD67858A23230BAF /* Foundation.framework */; };
+		4F4464B1E6CA908E4DA9C7A962BCE0CF /* Pods-SOCR_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBA79E8CCBEDBD0B7C4FC5B002900AB /* Pods-SOCR_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
 		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		5CDB71C711DB12EC6D2FEA202D31E1B2 /* SOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C5F946247832666246420946DD740F /* SOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CFD08B8D2A3F5E61A71DA8BA22549C0 /* PayegisFaceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF15087BF91A2FD060AEBA43C84600A /* PayegisFaceSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5E7C72E98A4094C991E5B147174F4E6B /* IDLFaceDetectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE7512526EEC37CCE0796AA5C038D1C /* IDLFaceDetectionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61B3A821988EB30094C71421D5AEFD08 /* IDLFaceLivenessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC69C10D906677AA2BEEB42E858F0C2F /* IDLFaceLivenessManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CDB71C711DB12EC6D2FEA202D31E1B2 /* SOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = 7974249A60F7FC90EA6428ACC3334CB0 /* SOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFD08B8D2A3F5E61A71DA8BA22549C0 /* PayegisFaceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E7F4C79361B32CFCA00DF37038211 /* PayegisFaceSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E7C72E98A4094C991E5B147174F4E6B /* IDLFaceDetectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D01C6963714B51886B5931DB98E4139A /* IDLFaceDetectionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61B3A821988EB30094C71421D5AEFD08 /* IDLFaceLivenessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFAA54BAEFE6954EF4E596572171738 /* IDLFaceLivenessManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
 		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
@@ -41,32 +42,38 @@
 		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		8C909D1AB0BEBC5A13F0B6F22F698889 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D55E01E43847E378379DF2CE0A9961E /* CoreMedia.framework */; };
 		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D9B049E428F2E4BD288586DEF1C8D3D /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 158088A30D91C31E20D96999600D82E6 /* com.baidu.idl.face.faceSDK.bundle */; };
-		94168463D9B6B4507B093BA4E8AF4F0E /* SOCR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77486FEA90D6C0799E43AC3494643E6 /* SOCR-dummy.m */; };
-		9B942F59AD111EDE765F4C311A2EA415 /* SOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 004C6EB40A83DB8A6461B748EEE11F37 /* SOCR.m */; };
-		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
-		A2AE80F7672974DA60C6E17B04FFB64E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7A023427AA14A375BE9CA21C80615F /* CoreMedia.framework */; };
+		8D9B049E428F2E4BD288586DEF1C8D3D /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04BE7BD53944E463A120FD659BE4FA37 /* com.baidu.idl.face.faceSDK.bundle */; };
+		8EAB1AFD888A390DB30279370BDD1359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A4B994AAA5BA80226E287ACBCDFE3 /* Foundation.framework */; };
+		94168463D9B6B4507B093BA4E8AF4F0E /* SOCR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D359445924C9ECC9A7516A6B2E964F6 /* SOCR-dummy.m */; };
+		9B942F59AD111EDE765F4C311A2EA415 /* SOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 505CF5F8160925B4296866332C36F288 /* SOCR.m */; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
 		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		B2A7A999231B923567BA97DE00BDEA06 /* Pods-SOCR_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B96B635BD4FD8D5FB0692058F4CA55F9 /* Pods-SOCR_Example-dummy.m */; };
+		B2A7A999231B923567BA97DE00BDEA06 /* Pods-SOCR_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7DA579C41F4E4062AF80C678F430A4 /* Pods-SOCR_Example-dummy.m */; };
 		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7CBA01A0172F522B90620B93717E5E3 /* OCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6343DA6FB0CDC16656B9DCC0BB2042 /* OCRViewController.m */; };
-		B9C2C88F653DE84234E72B1D95273392 /* FaceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7780BD66060D8476D182E2237320BCAD /* FaceSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC0608D64BB66BFB2DCEBCFBC26523B9 /* PayEgisAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E32454CF578E59F07658391780D913 /* PayEgisAuthentication.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7CBA01A0172F522B90620B93717E5E3 /* OCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA89A58BD0A09D6461CB6D3D93118E2 /* OCRViewController.m */; };
+		B9C2C88F653DE84234E72B1D95273392 /* FaceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A913A9815893089928A7B16136734C8C /* FaceSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC0608D64BB66BFB2DCEBCFBC26523B9 /* PayEgisAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F34B1A50EFD8564E998F3F0A129BD4 /* PayEgisAuthentication.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCC3BFF4C5E39DAB413ECDAB1AD7954A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB75E10F79B5EFF3864253E5F3F7307 /* AVFoundation.framework */; };
 		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C50DFADA5D547C6BA2A70F598E302CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70B07F69E9A8D01AD67858A23230BAF /* Foundation.framework */; };
-		C6B254C33EFF00DE1D2A1C75147759C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B50CF52050AF161A08CB70A1681D4D0 /* UIKit.framework */; };
 		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9032B3B62A7E6CF20B0FB02E222BCF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD79163C1CB0F4E0A00EF1F3E45CE354 /* UIKit.framework */; };
 		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		E8DF52928F2B5A165F69A0AC19BC1888 /* Pods-SOCR_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3F41AB4C41F899DEB8D1E89E43E3DE /* Pods-SOCR_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F29615E90AE6B3CF5CCBCE2456036F88 /* IDLFaceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D882F027D7E83DD4EF5B187E40666E8 /* IDLFaceSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F29615E90AE6B3CF5CCBCE2456036F88 /* IDLFaceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E2753B22A48144E546AA67916797160C /* IDLFaceSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		F8985DC196D7AD80CDEB7FEA5CCB0878 /* Pods-SOCR_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F816E07812F6F24FA07318036B8D66A /* Pods-SOCR_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4F0139B33F30587994BDEE5B21254B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA2676D4F5D21C756B7556CB9FF691B;
+			remoteInfo = "Pods-SOCR_Example";
+		};
 		573F4D134F947DBDFEA83BD6A6F156F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -98,88 +105,91 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004C6EB40A83DB8A6461B748EEE11F37 /* SOCR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SOCR.m; sourceTree = "<group>"; };
-		05BB9464103972AEC9A9AE57EFDF81F4 /* Pods-SOCR_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOCR_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		03B4D2E830036E1C14F94FA40A9D5676 /* ResourceBundle-SOCR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SOCR-Info.plist"; sourceTree = "<group>"; };
+		04BE7BD53944E463A120FD659BE4FA37 /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = com.baidu.idl.face.faceSDK.bundle; path = SOCR/Assets/com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		0CD90BA18EE557DD40CD944E889C4E76 /* PayEgisFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayEgisFace.framework; path = SOCR/Classes/framework/PayEgisFace.framework; sourceTree = "<group>"; };
-		0D882F027D7E83DD4EF5B187E40666E8 /* IDLFaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDLFaceSDK.h; sourceTree = "<group>"; };
-		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		158088A30D91C31E20D96999600D82E6 /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = com.baidu.idl.face.faceSDK.bundle; path = SOCR/Assets/com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
-		162CA4E05F4CB6D27D6BEAF805899150 /* Pods-SOCR_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOCR_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		191E88E29EE3B13D96C133D01FE4DAF0 /* ResourceBundle-SOCR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SOCR-Info.plist"; sourceTree = "<group>"; };
+		0A4E57E0A42807C83A1F6E84F5618D6A /* Pods-SOCR_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOCR_Tests-dummy.m"; sourceTree = "<group>"; };
+		0EBA79E8CCBEDBD0B7C4FC5B002900AB /* Pods-SOCR_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOCR_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10378442C41052D4A2DD91F7E4073205 /* SOCR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOCR-prefix.pch"; sourceTree = "<group>"; };
+		1D359445924C9ECC9A7516A6B2E964F6 /* SOCR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SOCR-dummy.m"; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		1F816E07812F6F24FA07318036B8D66A /* Pods-SOCR_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOCR_Tests-dummy.m"; sourceTree = "<group>"; };
-		20E32454CF578E59F07658391780D913 /* PayEgisAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PayEgisAuthentication.h; sourceTree = "<group>"; };
-		28598035F3D54D83B4A6B4C87396D591 /* Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		2AC0C573575C3A05D5C38715EB33DE07 /* FaceSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaceSDKManager.h; sourceTree = "<group>"; };
-		2E0D805801BF54C40D723BF585497F96 /* Pods-SOCR_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SOCR_Tests.modulemap"; sourceTree = "<group>"; };
-		2EEB4D72968AFDB166E39695D5473EE1 /* Pods-SOCR_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		20F7208147C6DD99C7CEC98CA7AA95FB /* Pods-SOCR_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SOCR_Tests.modulemap"; sourceTree = "<group>"; };
+		2DC2BC35E0F2EA038506E2C476A55327 /* com.baidu.idl.face.model.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = com.baidu.idl.face.model.bundle; path = SOCR/Assets/com.baidu.idl.face.model.bundle; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		2FB8E4634D6F740920557535E39441D9 /* SOCR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SOCR.modulemap; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		33C5F946247832666246420946DD740F /* SOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SOCR.h; sourceTree = "<group>"; };
-		36A2FB4019162014CDE0EEAB2D65252E /* Pods-SOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3E309A11268438D55088D804275E3D94 /* Pods-SOCR_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Example-resources.sh"; sourceTree = "<group>"; };
-		4CB5110C773B23F6AE26B5151480A276 /* SOCR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOCR-prefix.pch"; sourceTree = "<group>"; };
+		40B427223A18974126A1234D46EC1DD0 /* OCRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCRViewController.h; sourceTree = "<group>"; };
+		470D3EC98DA7CF2F935C5C5DDD1435B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D55E01E43847E378379DF2CE0A9961E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		4E8A4B994AAA5BA80226E287ACBCDFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		505CF5F8160925B4296866332C36F288 /* SOCR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SOCR.m; sourceTree = "<group>"; };
+		51800E60B7F6A7C67A51F5459B9B3332 /* Pods-SOCR_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Tests-resources.sh"; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		56679E876BBDDAF620D1AB3885F90BCF /* SOCR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOCR.xcconfig; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5A8281884045BFC24227E4D3033DF8E7 /* SOCR.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SOCR.bundle; path = "SOCR-SOCR.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FE7512526EEC37CCE0796AA5C038D1C /* IDLFaceDetectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDLFaceDetectionManager.h; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		6833E1B3310313D39CE8EC4C52AFAD38 /* Pods-SOCR_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOCR_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		6F6DF2BA890AD684FEAAFA1915845C0D /* Pods-SOCR_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOCR_Example-umbrella.h"; sourceTree = "<group>"; };
-		7780BD66060D8476D182E2237320BCAD /* FaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaceSDK.h; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		7974249A60F7FC90EA6428ACC3334CB0 /* SOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SOCR.h; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		7A892C3593B19C6AC518C37BEEE4FCE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B50CF52050AF161A08CB70A1681D4D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7CF15087BF91A2FD060AEBA43C84600A /* PayegisFaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PayegisFaceSDK.h; sourceTree = "<group>"; };
+		7A0FEFEAB14025D0CFD0022C4CF81168 /* Pods_SOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SOCR_Tests.framework; path = "Pods-SOCR_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		7F004568DC0169AD7E1B6C43D879D399 /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDLFaceSDK.framework; path = SOCR/Classes/framework/IDLFaceSDK.framework; sourceTree = "<group>"; };
-		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80F9AC51AF351BDD45F5D5CD25708ABE /* Pods-SOCR_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOCR_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8411F90B04CE5B4EB156C8EC93553FB4 /* Pods-SOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
-		931DB4A210645A6AA93BB0AC4A45ED8B /* Pods-SOCR_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Example-frameworks.sh"; sourceTree = "<group>"; };
+		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F325E05725FE6034B55C0FA8E9C86E /* Pods-SOCR_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		88A034A5ACBBFA58E6B99730E81E36B8 /* Pods-SOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A6E5E386230CD395D0CFAF28D95D3EF /* Pods-SOCR_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOCR_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CB75E10F79B5EFF3864253E5F3F7307 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		96E63F3564C7A21EC7B8A0CB9F8D3CAE /* Pods-SOCR_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOCR_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		9A53BC3D6A0BAE274E58682F9EA2C5BC /* Pods-SOCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D7A023427AA14A375BE9CA21C80615F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		9DA89A58BD0A09D6461CB6D3D93118E2 /* OCRViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCRViewController.m; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A06391E5258BBD15BBFE2FB50FAB74DD /* SOCR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOCR-umbrella.h"; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A638EF57EFB4BB72A83C088062C5B8B7 /* OCRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCRViewController.h; sourceTree = "<group>"; };
+		A2F34B1A50EFD8564E998F3F0A129BD4 /* PayEgisAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PayEgisAuthentication.h; sourceTree = "<group>"; };
+		A913A9815893089928A7B16136734C8C /* FaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaceSDK.h; sourceTree = "<group>"; };
+		ABFAA54BAEFE6954EF4E596572171738 /* IDLFaceLivenessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDLFaceLivenessManager.h; sourceTree = "<group>"; };
+		AC35ADC1E2F6D31F8EBD7DC8B29ED358 /* Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		ACD9768C0E2AC3CB85066768E0F4FC1F /* Pods-SOCR_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOCR_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		ADC378DE01359245057D20C67B82BE65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		AF071647906431E14873DCDF8BAE3436 /* Pods_SOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SOCR_Example.framework; path = "Pods-SOCR_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B118DD26AD711F8A160C8FBB5F5F1F26 /* CWResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CWResource.bundle; path = SOCR/Assets/CWResource.bundle; sourceTree = "<group>"; };
+		AE34DE77DAA1922286C83A8963A8410E /* SOCR.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SOCR.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFE673DCA26372C5740DFD10C7F81699 /* Pods_SOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SOCR_Example.framework; path = "Pods-SOCR_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08160CE436D163336F94F49C9687453 /* Pods-SOCR_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Example-resources.sh"; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B46EE18A91DBC3363140561BE1DFC468 /* Pods-SOCR_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Tests-resources.sh"; sourceTree = "<group>"; };
-		B48AF535D361B8130177A6B149A32AEA /* SOCR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOCR-umbrella.h"; sourceTree = "<group>"; };
-		B96B635BD4FD8D5FB0692058F4CA55F9 /* Pods-SOCR_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOCR_Example-dummy.m"; sourceTree = "<group>"; };
-		BA6343DA6FB0CDC16656B9DCC0BB2042 /* OCRViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCRViewController.m; sourceTree = "<group>"; };
-		BC69C10D906677AA2BEEB42E858F0C2F /* IDLFaceLivenessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDLFaceLivenessManager.h; sourceTree = "<group>"; };
-		C1951F15391901752716C618EB81F492 /* SOCR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SOCR.modulemap; sourceTree = "<group>"; };
-		C2C8373D8FA1B9E1E129EF1CE4FB1C4D /* Pods_SOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SOCR_Tests.framework; path = "Pods-SOCR_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B595AE2A31D9ECD5506E5D0D47F98565 /* SOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SOCR.framework; path = SOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD79163C1CB0F4E0A00EF1F3E45CE354 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF7DA579C41F4E4062AF80C678F430A4 /* Pods-SOCR_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOCR_Example-dummy.m"; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		C49557E1FC3BF29C0549946A0D3AB2E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C532599770F436F8BEA15871A63041C1 /* Pods-SOCR_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SOCR_Example.modulemap"; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		D70B07F69E9A8D01AD67858A23230BAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D77486FEA90D6C0799E43AC3494643E6 /* SOCR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SOCR-dummy.m"; sourceTree = "<group>"; };
-		DDB48DAC128946658E14E3DB1E2C875E /* com.baidu.idl.face.model.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = com.baidu.idl.face.model.bundle; path = SOCR/Assets/com.baidu.idl.face.model.bundle; sourceTree = "<group>"; };
-		DE0184C9F794BB5C7F7A6A2313C7F56F /* Pods-SOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE3F41AB4C41F899DEB8D1E89E43E3DE /* Pods-SOCR_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOCR_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E031BCC188F2ABAE5570EDDAA79A9789 /* SOCR.framework */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SOCR.framework; path = libSOCR.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E427D6AF8E93AB5C29D158DB7556A5FB /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E82FF00C5F41346E3CD59F77431A8D /* SOCR.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SOCR.bundle; path = "SOCR-SOCR.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA04B801954A2E77955ABE0E3A58F0B3 /* FaceSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaceSDKManager.h; sourceTree = "<group>"; };
+		D01C6963714B51886B5931DB98E4139A /* IDLFaceDetectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDLFaceDetectionManager.h; sourceTree = "<group>"; };
+		D098F4455FC1A049EF2BFDA4C6326FF5 /* Pods-SOCR_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOCR_Example-umbrella.h"; sourceTree = "<group>"; };
+		D0F60A96F61C2A86DE7CC37AF6BF0E88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F5E158D56AA5BE267BF75738003F3C /* Pods-SOCR_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOCR_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DF5ED9385D04F1CDEE4A9A5F4FAC4C98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF81C8ACF5F288A8749C2809A7D8439C /* Pods-SOCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0AD74FAC2A128BA72FB7BB34379A345 /* SOCR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOCR.xcconfig; sourceTree = "<group>"; };
+		E2753B22A48144E546AA67916797160C /* IDLFaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDLFaceSDK.h; sourceTree = "<group>"; };
+		E3A215F0A597B54CAFE4B93B16E936A8 /* Pods-SOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E3BC9006FEF40BE9B9431E9AF5276F90 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4655A8262398948B91C7A900E0374A4 /* Pods-SOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4FFD88DABC02C9A7815FD804BF3217C /* Pods-SOCR_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOCR_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		EF110DE8D4C05C684AFF0354F85458E6 /* Pods-SOCR_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SOCR_Example.modulemap"; sourceTree = "<group>"; };
+		EF6E7F4C79361B32CFCA00DF37038211 /* PayegisFaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PayegisFaceSDK.h; sourceTree = "<group>"; };
+		F0FE9F501508050AED545FFA49DB6FB6 /* PayEgisFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayEgisFace.framework; path = SOCR/Classes/framework/PayEgisFace.framework; sourceTree = "<group>"; };
+		F72D6533FD22410D6EC67CC6E3C25072 /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDLFaceSDK.framework; path = SOCR/Classes/framework/IDLFaceSDK.framework; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		FBA50830D498A4F1BB120253F1E45A59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FC0861C60D052F6D2618D21BF5E66DA7 /* CWResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CWResource.bundle; path = SOCR/Assets/CWResource.bundle; sourceTree = "<group>"; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,7 +199,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C50DFADA5D547C6BA2A70F598E302CE3 /* Foundation.framework in Frameworks */,
+				21C0376B515207449FA76FC336DE20FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B770509957E784B3AEF5A698B69A228A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB1AFD888A390DB30279370BDD1359 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,18 +215,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CADC713CC81A1E778284A0C36A2518E /* AVFoundation.framework in Frameworks */,
-				A2AE80F7672974DA60C6E17B04FFB64E /* CoreMedia.framework in Frameworks */,
-				04A8A86450F0E10EAEFF90BA3AE99B8A /* Foundation.framework in Frameworks */,
-				C6B254C33EFF00DE1D2A1C75147759C9 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D55AE311CD1150E6CE291E1A7EF58CBD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E90457DDBFD6483BE6E251600E6DBF0 /* Foundation.framework in Frameworks */,
+				BCC3BFF4C5E39DAB413ECDAB1AD7954A /* AVFoundation.framework in Frameworks */,
+				8C909D1AB0BEBC5A13F0B6F22F698889 /* CoreMedia.framework in Frameworks */,
+				1BC63E48D1CDA8DA91A1DA9FB527E314 /* Foundation.framework in Frameworks */,
+				D9032B3B62A7E6CF20B0FB02E222BCF9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +226,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */,
-				38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */,
+				4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */,
+				11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,131 +241,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E268EF730EBE76114CC305687CEDCF /* vc */ = {
+		086123C02D326AB13D35C0268B2ADFEF /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				A638EF57EFB4BB72A83C088062C5B8B7 /* OCRViewController.h */,
-				BA6343DA6FB0CDC16656B9DCC0BB2042 /* OCRViewController.m */,
+				A913A9815893089928A7B16136734C8C /* FaceSDK.h */,
+				CA04B801954A2E77955ABE0E3A58F0B3 /* FaceSDKManager.h */,
+				D01C6963714B51886B5931DB98E4139A /* IDLFaceDetectionManager.h */,
+				ABFAA54BAEFE6954EF4E596572171738 /* IDLFaceLivenessManager.h */,
+				E2753B22A48144E546AA67916797160C /* IDLFaceSDK.h */,
+				AC35ADC1E2F6D31F8EBD7DC8B29ED358 /* Util.h */,
 			);
-			name = vc;
-			path = SOCR/Classes/vc;
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB7DE907B1AAA29594D246168B558313 /* iOS */,
+				CA10F331ACDCE18439F1A811203C22E4 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1B796DFC1F4D619D253B1F8106D4C994 /* Products */ = {
+		6038C064825BC4529A3F5860963013D6 /* SOCR */ = {
 			isa = PBXGroup;
 			children = (
-				E427D6AF8E93AB5C29D158DB7556A5FB /* Masonry.framework */,
-				AF071647906431E14873DCDF8BAE3436 /* Pods_SOCR_Example.framework */,
-				C2C8373D8FA1B9E1E129EF1CE4FB1C4D /* Pods_SOCR_Tests.framework */,
-				5A8281884045BFC24227E4D3033DF8E7 /* SOCR.bundle */,
-				E031BCC188F2ABAE5570EDDAA79A9789 /* SOCR.framework */,
+				C2715BEF2D79CD99E66A5D2E3C986565 /* framework */,
+				98201F64BED9EDE5F9EC56D461AD09BB /* Frameworks */,
+				BF1AADF34A0FAD602C74FA2590E87B74 /* head */,
+				CD811750FD96EB2119A4564397F3D62D /* Pod */,
+				C880E05E3CB742A7A88D031283BAE8BA /* Resources */,
+				C8320D6E7A5AF280F3FB12C5B82737D1 /* Support Files */,
+				6421B35464899C26E08CB0511684D04F /* vc */,
 			);
-			name = Products;
+			name = SOCR;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		318A0665EA9F68AEBBAC5BB5FDDFE9C0 /* framework */ = {
+		6421B35464899C26E08CB0511684D04F /* vc */ = {
 			isa = PBXGroup;
 			children = (
-				6E1B08AE56CE5B13AACEE00689EEFA76 /* IDLFaceSDK.framework */,
-				531EFE59D75E67CD6507C453583B1C19 /* PayEgisFace.framework */,
+				40B427223A18974126A1234D46EC1DD0 /* OCRViewController.h */,
+				9DA89A58BD0A09D6461CB6D3D93118E2 /* OCRViewController.m */,
 			);
-			name = framework;
-			path = SOCR/Classes/framework;
-			sourceTree = "<group>";
-		};
-		4E270055BFFE89163EE708A8FA8C10EB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				158088A30D91C31E20D96999600D82E6 /* com.baidu.idl.face.faceSDK.bundle */,
-				DDB48DAC128946658E14E3DB1E2C875E /* com.baidu.idl.face.model.bundle */,
-				B118DD26AD711F8A160C8FBB5F5F1F26 /* CWResource.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		531EFE59D75E67CD6507C453583B1C19 /* PayEgisFace.framework */ = {
-			isa = PBXGroup;
-			children = (
-				C36918F77895221EAB8460F714810D58 /* Headers */,
-			);
-			name = PayEgisFace.framework;
-			path = PayEgisFace.framework;
-			sourceTree = "<group>";
-		};
-		5CBDF6AE2E266BFB2FD38A31AC4ABBE1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				191E88E29EE3B13D96C133D01FE4DAF0 /* ResourceBundle-SOCR-Info.plist */,
-				C1951F15391901752716C618EB81F492 /* SOCR.modulemap */,
-				56679E876BBDDAF620D1AB3885F90BCF /* SOCR.xcconfig */,
-				D77486FEA90D6C0799E43AC3494643E6 /* SOCR-dummy.m */,
-				4CB5110C773B23F6AE26B5151480A276 /* SOCR-prefix.pch */,
-				B48AF535D361B8130177A6B149A32AEA /* SOCR-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SOCR";
-			sourceTree = "<group>";
-		};
-		69BE8BC80398ADD078152898F5DD493A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7F004568DC0169AD7E1B6C43D879D399 /* IDLFaceSDK.framework */,
-				0CD90BA18EE557DD40CD944E889C4E76 /* PayEgisFace.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6E1B08AE56CE5B13AACEE00689EEFA76 /* IDLFaceSDK.framework */ = {
-			isa = PBXGroup;
-			children = (
-				E95DDB79D29610DE89B8AC5E448EA4C2 /* Headers */,
-			);
-			name = IDLFaceSDK.framework;
-			path = IDLFaceSDK.framework;
+			name = vc;
+			path = SOCR/Classes/vc;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DE5B1224C3E219084378BC2F28D33B90 /* Development Pods */,
+				9DE76C115BA151D6B18731B0D995B8B0 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
-				1B796DFC1F4D619D253B1F8106D4C994 /* Products */,
+				EEAA7FD8AD01CA7488FDFD81B205158D /* Products */,
 				CFA1AEB7266D02F32D5A51245B51FFCA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87B11BA4D333BD2D73FB0C6FF38346D1 /* head */ = {
+		7FFC0DDF27FBAE4687958AD7CF420D25 /* IDLFaceSDK.framework */ = {
 			isa = PBXGroup;
 			children = (
-				33C5F946247832666246420946DD740F /* SOCR.h */,
-				004C6EB40A83DB8A6461B748EEE11F37 /* SOCR.m */,
+				086123C02D326AB13D35C0268B2ADFEF /* Headers */,
 			);
-			name = head;
-			path = SOCR/Classes/head;
+			name = IDLFaceSDK.framework;
+			path = IDLFaceSDK.framework;
 			sourceTree = "<group>";
 		};
-		8E9F3E1EB1C9934E5DE9B8093F48AAC9 /* SOCR */ = {
+		98201F64BED9EDE5F9EC56D461AD09BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				318A0665EA9F68AEBBAC5BB5FDDFE9C0 /* framework */,
-				69BE8BC80398ADD078152898F5DD493A /* Frameworks */,
-				87B11BA4D333BD2D73FB0C6FF38346D1 /* head */,
-				4E270055BFFE89163EE708A8FA8C10EB /* Resources */,
-				5CBDF6AE2E266BFB2FD38A31AC4ABBE1 /* Support Files */,
-				04E268EF730EBE76114CC305687CEDCF /* vc */,
+				F72D6533FD22410D6EC67CC6E3C25072 /* IDLFaceSDK.framework */,
+				F0FE9F501508050AED545FFA49DB6FB6 /* PayEgisFace.framework */,
 			);
-			name = SOCR;
-			path = ../..;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DE76C115BA151D6B18731B0D995B8B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6038C064825BC4529A3F5860963013D6 /* SOCR */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -386,94 +354,153 @@
 				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
 				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
 				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
-				AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */,
+				D253588BAFB01A953DA60C10CD597F84 /* Support Files */,
 			);
 			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */ = {
+		BB518BDF33718305E05FB008759B9866 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				7F44A621BE24B87AEF75DD7193846188 /* Info.plist */,
-				3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */,
-				61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */,
-				FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */,
-				CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */,
-				13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		BB7DE907B1AAA29594D246168B558313 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				ADC378DE01359245057D20C67B82BE65 /* AVFoundation.framework */,
-				9D7A023427AA14A375BE9CA21C80615F /* CoreMedia.framework */,
-				D70B07F69E9A8D01AD67858A23230BAF /* Foundation.framework */,
-				7B50CF52050AF161A08CB70A1681D4D0 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C36918F77895221EAB8460F714810D58 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				20E32454CF578E59F07658391780D913 /* PayEgisAuthentication.h */,
-				7CF15087BF91A2FD060AEBA43C84600A /* PayegisFaceSDK.h */,
+				A2F34B1A50EFD8564E998F3F0A129BD4 /* PayEgisAuthentication.h */,
+				EF6E7F4C79361B32CFCA00DF37038211 /* PayegisFaceSDK.h */,
 			);
 			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		CFA1AEB7266D02F32D5A51245B51FFCA /* Targets Support Files */ = {
+		BCC916C5605673EBA0074EEE738015C9 /* Pods-SOCR_Example */ = {
 			isa = PBXGroup;
 			children = (
-				DF904F66ED01E67B26D53A7AEC709C37 /* Pods-SOCR_Example */,
-				FF8E5342F7CDD96D9A7718A518C2ED07 /* Pods-SOCR_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DE5B1224C3E219084378BC2F28D33B90 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8E9F3E1EB1C9934E5DE9B8093F48AAC9 /* SOCR */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		DF904F66ED01E67B26D53A7AEC709C37 /* Pods-SOCR_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C49557E1FC3BF29C0549946A0D3AB2E9 /* Info.plist */,
-				C532599770F436F8BEA15871A63041C1 /* Pods-SOCR_Example.modulemap */,
-				80F9AC51AF351BDD45F5D5CD25708ABE /* Pods-SOCR_Example-acknowledgements.markdown */,
-				05BB9464103972AEC9A9AE57EFDF81F4 /* Pods-SOCR_Example-acknowledgements.plist */,
-				B96B635BD4FD8D5FB0692058F4CA55F9 /* Pods-SOCR_Example-dummy.m */,
-				931DB4A210645A6AA93BB0AC4A45ED8B /* Pods-SOCR_Example-frameworks.sh */,
-				3E309A11268438D55088D804275E3D94 /* Pods-SOCR_Example-resources.sh */,
-				6F6DF2BA890AD684FEAAFA1915845C0D /* Pods-SOCR_Example-umbrella.h */,
-				9A53BC3D6A0BAE274E58682F9EA2C5BC /* Pods-SOCR_Example.debug.xcconfig */,
-				8411F90B04CE5B4EB156C8EC93553FB4 /* Pods-SOCR_Example.release.xcconfig */,
+				470D3EC98DA7CF2F935C5C5DDD1435B5 /* Info.plist */,
+				EF110DE8D4C05C684AFF0354F85458E6 /* Pods-SOCR_Example.modulemap */,
+				ACD9768C0E2AC3CB85066768E0F4FC1F /* Pods-SOCR_Example-acknowledgements.markdown */,
+				E4FFD88DABC02C9A7815FD804BF3217C /* Pods-SOCR_Example-acknowledgements.plist */,
+				BF7DA579C41F4E4062AF80C678F430A4 /* Pods-SOCR_Example-dummy.m */,
+				D8F5E158D56AA5BE267BF75738003F3C /* Pods-SOCR_Example-frameworks.sh */,
+				B08160CE436D163336F94F49C9687453 /* Pods-SOCR_Example-resources.sh */,
+				D098F4455FC1A049EF2BFDA4C6326FF5 /* Pods-SOCR_Example-umbrella.h */,
+				DF81C8ACF5F288A8749C2809A7D8439C /* Pods-SOCR_Example.debug.xcconfig */,
+				88A034A5ACBBFA58E6B99730E81E36B8 /* Pods-SOCR_Example.release.xcconfig */,
 			);
 			name = "Pods-SOCR_Example";
 			path = "Target Support Files/Pods-SOCR_Example";
 			sourceTree = "<group>";
 		};
-		E95DDB79D29610DE89B8AC5E448EA4C2 /* Headers */ = {
+		BF1AADF34A0FAD602C74FA2590E87B74 /* head */ = {
 			isa = PBXGroup;
 			children = (
-				7780BD66060D8476D182E2237320BCAD /* FaceSDK.h */,
-				2AC0C573575C3A05D5C38715EB33DE07 /* FaceSDKManager.h */,
-				5FE7512526EEC37CCE0796AA5C038D1C /* IDLFaceDetectionManager.h */,
-				BC69C10D906677AA2BEEB42E858F0C2F /* IDLFaceLivenessManager.h */,
-				0D882F027D7E83DD4EF5B187E40666E8 /* IDLFaceSDK.h */,
-				28598035F3D54D83B4A6B4C87396D591 /* Util.h */,
+				7974249A60F7FC90EA6428ACC3334CB0 /* SOCR.h */,
+				505CF5F8160925B4296866332C36F288 /* SOCR.m */,
 			);
-			name = Headers;
-			path = Headers;
+			name = head;
+			path = SOCR/Classes/head;
+			sourceTree = "<group>";
+		};
+		C2715BEF2D79CD99E66A5D2E3C986565 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC0DDF27FBAE4687958AD7CF420D25 /* IDLFaceSDK.framework */,
+				CBF17E3224384139AD58E5C994953025 /* PayEgisFace.framework */,
+			);
+			name = framework;
+			path = SOCR/Classes/framework;
+			sourceTree = "<group>";
+		};
+		C8320D6E7A5AF280F3FB12C5B82737D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B4D2E830036E1C14F94FA40A9D5676 /* ResourceBundle-SOCR-Info.plist */,
+				2FB8E4634D6F740920557535E39441D9 /* SOCR.modulemap */,
+				E0AD74FAC2A128BA72FB7BB34379A345 /* SOCR.xcconfig */,
+				1D359445924C9ECC9A7516A6B2E964F6 /* SOCR-dummy.m */,
+				10378442C41052D4A2DD91F7E4073205 /* SOCR-prefix.pch */,
+				A06391E5258BBD15BBFE2FB50FAB74DD /* SOCR-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SOCR";
+			sourceTree = "<group>";
+		};
+		C880E05E3CB742A7A88D031283BAE8BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04BE7BD53944E463A120FD659BE4FA37 /* com.baidu.idl.face.faceSDK.bundle */,
+				2DC2BC35E0F2EA038506E2C476A55327 /* com.baidu.idl.face.model.bundle */,
+				FC0861C60D052F6D2618D21BF5E66DA7 /* CWResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA10F331ACDCE18439F1A811203C22E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8CB75E10F79B5EFF3864253E5F3F7307 /* AVFoundation.framework */,
+				4D55E01E43847E378379DF2CE0A9961E /* CoreMedia.framework */,
+				4E8A4B994AAA5BA80226E287ACBCDFE3 /* Foundation.framework */,
+				BD79163C1CB0F4E0A00EF1F3E45CE354 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBF17E3224384139AD58E5C994953025 /* PayEgisFace.framework */ = {
+			isa = PBXGroup;
+			children = (
+				BB518BDF33718305E05FB008759B9866 /* Headers */,
+			);
+			name = PayEgisFace.framework;
+			path = PayEgisFace.framework;
+			sourceTree = "<group>";
+		};
+		CD811750FD96EB2119A4564397F3D62D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF5ED9385D04F1CDEE4A9A5F4FAC4C98 /* LICENSE */,
+				FBA50830D498A4F1BB120253F1E45A59 /* README.md */,
+				AE34DE77DAA1922286C83A8963A8410E /* SOCR.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CFA1AEB7266D02F32D5A51245B51FFCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC916C5605673EBA0074EEE738015C9 /* Pods-SOCR_Example */,
+				D4B722902465E91933732F91209658F2 /* Pods-SOCR_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */,
+				36C40591902578632718E317104564A2 /* Masonry.modulemap */,
+				3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */,
+				818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */,
+				E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */,
+				1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		D4B722902465E91933732F91209658F2 /* Pods-SOCR_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F60A96F61C2A86DE7CC37AF6BF0E88 /* Info.plist */,
+				20F7208147C6DD99C7CEC98CA7AA95FB /* Pods-SOCR_Tests.modulemap */,
+				6833E1B3310313D39CE8EC4C52AFAD38 /* Pods-SOCR_Tests-acknowledgements.markdown */,
+				8A6E5E386230CD395D0CFAF28D95D3EF /* Pods-SOCR_Tests-acknowledgements.plist */,
+				0A4E57E0A42807C83A1F6E84F5618D6A /* Pods-SOCR_Tests-dummy.m */,
+				87F325E05725FE6034B55C0FA8E9C86E /* Pods-SOCR_Tests-frameworks.sh */,
+				51800E60B7F6A7C67A51F5459B9B3332 /* Pods-SOCR_Tests-resources.sh */,
+				0EBA79E8CCBEDBD0B7C4FC5B002900AB /* Pods-SOCR_Tests-umbrella.h */,
+				E4655A8262398948B91C7A900E0374A4 /* Pods-SOCR_Tests.debug.xcconfig */,
+				E3A215F0A597B54CAFE4B93B16E936A8 /* Pods-SOCR_Tests.release.xcconfig */,
+			);
+			name = "Pods-SOCR_Tests";
+			path = "Target Support Files/Pods-SOCR_Tests";
 			sourceTree = "<group>";
 		};
 		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
@@ -484,40 +511,34 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FF8E5342F7CDD96D9A7718A518C2ED07 /* Pods-SOCR_Tests */ = {
+		EEAA7FD8AD01CA7488FDFD81B205158D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A892C3593B19C6AC518C37BEEE4FCE5 /* Info.plist */,
-				2E0D805801BF54C40D723BF585497F96 /* Pods-SOCR_Tests.modulemap */,
-				162CA4E05F4CB6D27D6BEAF805899150 /* Pods-SOCR_Tests-acknowledgements.markdown */,
-				96E63F3564C7A21EC7B8A0CB9F8D3CAE /* Pods-SOCR_Tests-acknowledgements.plist */,
-				1F816E07812F6F24FA07318036B8D66A /* Pods-SOCR_Tests-dummy.m */,
-				2EEB4D72968AFDB166E39695D5473EE1 /* Pods-SOCR_Tests-frameworks.sh */,
-				B46EE18A91DBC3363140561BE1DFC468 /* Pods-SOCR_Tests-resources.sh */,
-				DE3F41AB4C41F899DEB8D1E89E43E3DE /* Pods-SOCR_Tests-umbrella.h */,
-				DE0184C9F794BB5C7F7A6A2313C7F56F /* Pods-SOCR_Tests.debug.xcconfig */,
-				36A2FB4019162014CDE0EEAB2D65252E /* Pods-SOCR_Tests.release.xcconfig */,
+				E3BC9006FEF40BE9B9431E9AF5276F90 /* Masonry.framework */,
+				AFE673DCA26372C5740DFD10C7F81699 /* Pods_SOCR_Example.framework */,
+				7A0FEFEAB14025D0CFD0022C4CF81168 /* Pods_SOCR_Tests.framework */,
+				C7E82FF00C5F41346E3CD59F77431A8D /* SOCR.bundle */,
+				B595AE2A31D9ECD5506E5D0D47F98565 /* SOCR.framework */,
 			);
-			name = "Pods-SOCR_Tests";
-			path = "Target Support Files/Pods-SOCR_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2FFDBC220CC6D6759D40813238869E70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4464B1E6CA908E4DA9C7A962BCE0CF /* Pods-SOCR_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52EEE454BE61595B8124123C04AE56BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09892C6CAA9BF4D8F39E48F8653FD12A /* Pods-SOCR_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		636D8FAD9805DFFF85BE736D3D4FA933 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8DF52928F2B5A165F69A0AC19BC1888 /* Pods-SOCR_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +594,6 @@
 				C72E278B5FF94438EBBA69BF4C131154 /* Frameworks */,
 				A468B5B0A8537C3B34F30FC115967CFA /* Resources */,
 				B24AF6351710272EEA444EFFCBE032C1 /* Headers */,
-				FA821C8B54438608C084333F135E5159 /* Setup Static Framework Archive */,
 			);
 			buildRules = (
 			);
@@ -583,8 +603,26 @@
 			);
 			name = SOCR;
 			productName = SOCR;
-			productReference = E031BCC188F2ABAE5570EDDAA79A9789 /* SOCR.framework */;
-			productType = "com.apple.product-type.library.static";
+			productReference = B595AE2A31D9ECD5506E5D0D47F98565 /* SOCR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E9FB8A3289785B80678D9A4BAEE76EE /* Pods-SOCR_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A45175DB605D6FE767FC2F6091AA16 /* Build configuration list for PBXNativeTarget "Pods-SOCR_Tests" */;
+			buildPhases = (
+				45AB70567BB6B32554E07F0A03E86952 /* Sources */,
+				B770509957E784B3AEF5A698B69A228A /* Frameworks */,
+				2FFDBC220CC6D6759D40813238869E70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6EAB51CF3CC5F0237642481341BAF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SOCR_Tests";
+			productName = "Pods-SOCR_Tests";
+			productReference = 7A0FEFEAB14025D0CFD0022C4CF81168 /* Pods_SOCR_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		7BA2676D4F5D21C756B7556CB9FF691B /* Pods-SOCR_Example */ = {
 			isa = PBXNativeTarget;
@@ -602,24 +640,7 @@
 			);
 			name = "Pods-SOCR_Example";
 			productName = "Pods-SOCR_Example";
-			productReference = AF071647906431E14873DCDF8BAE3436 /* Pods_SOCR_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A4410E98FD10A82C9C10F03699DA7B66 /* Pods-SOCR_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F9E8550634370F2006B03EF406789DD /* Build configuration list for PBXNativeTarget "Pods-SOCR_Tests" */;
-			buildPhases = (
-				278235DDD831A16DF036FF96C8AE1E72 /* Sources */,
-				D55AE311CD1150E6CE291E1A7EF58CBD /* Frameworks */,
-				636D8FAD9805DFFF85BE736D3D4FA933 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-SOCR_Tests";
-			productName = "Pods-SOCR_Tests";
-			productReference = C2C8373D8FA1B9E1E129EF1CE4FB1C4D /* Pods_SOCR_Tests.framework */;
+			productReference = AFE673DCA26372C5740DFD10C7F81699 /* Pods_SOCR_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
@@ -636,7 +657,7 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = E427D6AF8E93AB5C29D158DB7556A5FB /* Masonry.framework */;
+			productReference = E3BC9006FEF40BE9B9431E9AF5276F90 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DF015F8533DFCB5B80882422EA62F294 /* SOCR-SOCR */ = {
@@ -653,7 +674,7 @@
 			);
 			name = "SOCR-SOCR";
 			productName = "SOCR-SOCR";
-			productReference = 5A8281884045BFC24227E4D3033DF8E7 /* SOCR.bundle */;
+			productReference = C7E82FF00C5F41346E3CD59F77431A8D /* SOCR.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -662,8 +683,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -673,13 +694,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1B796DFC1F4D619D253B1F8106D4C994 /* Products */;
+			productRefGroup = EEAA7FD8AD01CA7488FDFD81B205158D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
 				7BA2676D4F5D21C756B7556CB9FF691B /* Pods-SOCR_Example */,
-				A4410E98FD10A82C9C10F03699DA7B66 /* Pods-SOCR_Tests */,
+				3E9FB8A3289785B80678D9A4BAEE76EE /* Pods-SOCR_Tests */,
 				0127A1ADF96DFFA2B75B587E6EAF6965 /* SOCR */,
 				DF015F8533DFCB5B80882422EA62F294 /* SOCR-SOCR */,
 			);
@@ -706,24 +727,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FA821C8B54438608C084333F135E5159 /* Setup Static Framework Archive */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Setup Static Framework Archive";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules\"\ncp \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\ncp \"${MODULEMAP_FILE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/module.modulemap\"\n# If there's a .swiftmodule, copy it into the framework's Modules folder\ncp -r \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\".swiftmodule \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/\" 2>/dev/null || :\n";
-			showEnvVarsInLog = 1;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
@@ -752,11 +755,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		278235DDD831A16DF036FF96C8AE1E72 /* Sources */ = {
+		45AB70567BB6B32554E07F0A03E86952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8985DC196D7AD80CDEB7FEA5CCB0878 /* Pods-SOCR_Tests-dummy.m in Sources */,
+				067229E58EFFAA14D72D915A1ED46A32 /* Pods-SOCR_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,6 +795,12 @@
 			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
 			targetProxy = 85CB161498768A50D177F866CC6B7327 /* PBXContainerItemProxy */;
 		};
+		9F6EAB51CF3CC5F0237642481341BAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SOCR_Example";
+			target = 7BA2676D4F5D21C756B7556CB9FF691B /* Pods-SOCR_Example */;
+			targetProxy = 4F0139B33F30587994BDEE5B21254B38 /* PBXContainerItemProxy */;
+		};
 		AD5B6C52C600064DDD94E84F8EEB2BEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SOCR;
@@ -807,10 +816,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E856C659AD8E4C09B9EC5557F7D727B /* Release */ = {
+		135F335C5AF06B9EB827545B30AE9DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			baseConfigurationReference = DF81C8ACF5F288A8749C2809A7D8439C /* Pods-SOCR_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -820,56 +830,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SOCR_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_NAME = Masonry;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1F2B05BDAA1F32F9845FBF35781F57DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1F9E6A8E77F8DA6FA47062F8765603C7 /* Release */ = {
+		2B398D7C8B77885888242B10C2FFF1B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A2FB4019162014CDE0EEAB2D65252E /* Pods-SOCR_Tests.release.xcconfig */;
+			baseConfigurationReference = E3A215F0A597B54CAFE4B93B16E936A8 /* Pods-SOCR_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -889,7 +873,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SOCR_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -899,7 +883,116 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		35E7A6CBB79F930252357A90D25891E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AD74FAC2A128BA72FB7BB34379A345 /* SOCR.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SOCR/SOCR-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SOCR/SOCR.modulemap";
+				PRODUCT_MODULE_NAME = SOCR;
+				PRODUCT_NAME = SOCR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		378F2AB995DF5C5AE5C8AE491648015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AD74FAC2A128BA72FB7BB34379A345 /* SOCR.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SOCR";
+				INFOPLIST_FILE = "Target Support Files/SOCR/ResourceBundle-SOCR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SOCR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3845069A573E47CF21533487C497A730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C335FBEBB84760D446DE931BB1E2AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4655A8262398948B91C7A900E0374A4 /* Pods-SOCR_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SOCR_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SOCR_Tests/Pods-SOCR_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -909,10 +1002,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -920,6 +1015,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -928,6 +1024,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -952,16 +1049,15 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		378F2AB995DF5C5AE5C8AE491648015A /* Debug */ = {
+		8C1F12111E929834563A585437C36AAC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56679E876BBDDAF620D1AB3885F90BCF /* SOCR.xcconfig */;
+			baseConfigurationReference = E0AD74FAC2A128BA72FB7BB34379A345 /* SOCR.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SOCR";
@@ -973,12 +1069,13 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		620F5B07FA8D713885726BB89195ACAA /* Debug */ = {
+		8D87823F7318B66354CC7215ACC03A43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE0184C9F794BB5C7F7A6A2313C7F56F /* Pods-SOCR_Tests.debug.xcconfig */;
+			baseConfigurationReference = 88A034A5ACBBFA58E6B99730E81E36B8 /* Pods-SOCR_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -988,49 +1085,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SOCR_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SOCR_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SOCR_Tests/Pods-SOCR_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SOCR_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		71A69BF3E4267F8F44A4CC7928EC8DD0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56679E876BBDDAF620D1AB3885F90BCF /* SOCR.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SOCR/SOCR-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = "Target Support Files/SOCR/SOCR.modulemap";
-				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = SOCR.framework/PrivateHeaders;
-				PRODUCT_NAME = SOCR;
-				PUBLIC_HEADERS_FOLDER_PATH = SOCR.framework/Headers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
 			name = Release;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1040,10 +1115,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1051,6 +1128,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1059,6 +1137,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1079,53 +1158,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		757606D53055525BB683F6CD0BCA42A4 /* Debug */ = {
+		EDF49F210716212F8438C1818CBB02A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56679E876BBDDAF620D1AB3885F90BCF /* SOCR.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SOCR/SOCR-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = "Target Support Files/SOCR/SOCR.modulemap";
-				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = SOCR.framework/PrivateHeaders;
-				PRODUCT_NAME = SOCR;
-				PUBLIC_HEADERS_FOLDER_PATH = SOCR.framework/Headers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8C1F12111E929834563A585437C36AAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56679E876BBDDAF620D1AB3885F90BCF /* SOCR.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SOCR";
-				INFOPLIST_FILE = "Target Support Files/SOCR/ResourceBundle-SOCR-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SOCR;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A2CB6BCA9D923E1A85FA154C486C22B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8411F90B04CE5B4EB156C8EC93553FB4 /* Pods-SOCR_Example.release.xcconfig */;
+			baseConfigurationReference = E0AD74FAC2A128BA72FB7BB34379A345 /* SOCR.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1136,19 +1176,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SOCR_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SOCR/SOCR-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SOCR_Example;
+				MODULEMAP_FILE = "Target Support Files/SOCR/SOCR.modulemap";
+				PRODUCT_MODULE_NAME = SOCR;
+				PRODUCT_NAME = SOCR;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1156,9 +1194,9 @@
 			};
 			name = Release;
 		};
-		C9643A348F61A1B118F88C17ECD79852 /* Debug */ = {
+		FE3EC76958EB417BB5A9577967FD1019 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A53BC3D6A0BAE274E58682F9EA2C5BC /* Pods-SOCR_Example.debug.xcconfig */;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1169,24 +1207,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SOCR_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SOCR_Example;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1194,8 +1231,8 @@
 		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F2B05BDAA1F32F9845FBF35781F57DB /* Debug */,
-				0E856C659AD8E4C09B9EC5557F7D727B /* Release */,
+				3845069A573E47CF21533487C497A730 /* Debug */,
+				FE3EC76958EB417BB5A9577967FD1019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1203,8 +1240,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A45175DB605D6FE767FC2F6091AA16 /* Build configuration list for PBXNativeTarget "Pods-SOCR_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C335FBEBB84760D446DE931BB1E2AE9 /* Debug */,
+				2B398D7C8B77885888242B10C2FFF1B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1212,17 +1258,8 @@
 		5DBE51C5CFC4415329BB83F3DB41EDBE /* Build configuration list for PBXNativeTarget "SOCR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				757606D53055525BB683F6CD0BCA42A4 /* Debug */,
-				71A69BF3E4267F8F44A4CC7928EC8DD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7F9E8550634370F2006B03EF406789DD /* Build configuration list for PBXNativeTarget "Pods-SOCR_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				620F5B07FA8D713885726BB89195ACAA /* Debug */,
-				1F9E6A8E77F8DA6FA47062F8765603C7 /* Release */,
+				35E7A6CBB79F930252357A90D25891E9 /* Debug */,
+				EDF49F210716212F8438C1818CBB02A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1239,8 +1276,8 @@
 		D43D29EDD4AC95E772A1D957AA037C25 /* Build configuration list for PBXNativeTarget "Pods-SOCR_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9643A348F61A1B118F88C17ECD79852 /* Debug */,
-				A2CB6BCA9D923E1A85FA154C486C22B5 /* Release */,
+				135F335C5AF06B9EB827545B30AE9DE9 /* Debug */,
+				8D87823F7318B66354CC7215ACC03A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

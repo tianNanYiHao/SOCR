@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
     s.description      = <<-DESC
     描述信息:这是一个二次封装SDK的lib,将会用到很多著名第三方SDK,该功能用于打包包含这些著名第三方(该插件通过对引用的三方库进行重命名很好的解决了类库命名冲突的问题。http://www.cnblogs.com/brycezhang/p/4117180.html)
     DESC
+    
     # 主页信息网址
     s.homepage         = 'https://github.com/tianNanYiHao/SOCR'
     # 截图地址

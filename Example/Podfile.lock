@@ -6,14 +6,18 @@ PODS:
 DEPENDENCIES:
   - SOCR (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
 EXTERNAL SOURCES:
   SOCR:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SOCR: 8b952da2c8aaf011bed91a4fa75587b9ecb482e1
+  SOCR: 5b512e3153cd975a47a64d679fe02672c82b9b65
 
 PODFILE CHECKSUM: a5bb117fbb3e1e1410af9c54d842ec216e13e53d
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.5.3
