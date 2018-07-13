@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2816585B20F8D4FA006CF61A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816585A20F8D4FA006CF61A /* AVFoundation.framework */; };
+		2816585D20F8D503006CF61A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816585C20F8D503006CF61A /* CoreMedia.framework */; };
+		2816585F20F8D50C006CF61A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816585E20F8D50C006CF61A /* libstdc++.tbd */; };
+		2816586220F8D551006CF61A /* IDLFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816586020F8D551006CF61A /* IDLFaceSDK.framework */; };
+		2816586320F8D551006CF61A /* PayEgisFace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816586120F8D551006CF61A /* PayEgisFace.framework */; };
+		2816586720F8D67B006CF61A /* CWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2816586420F8D67A006CF61A /* CWResource.bundle */; };
+		2816586820F8D67B006CF61A /* com.baidu.idl.face.model.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2816586520F8D67B006CF61A /* com.baidu.idl.face.model.bundle */; };
+		2816586920F8D67B006CF61A /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2816586620F8D67B006CF61A /* com.baidu.idl.face.faceSDK.bundle */; };
 		3601DB070ECA45461F1E1DCA /* Pods_SOCR_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A037034A45432A8C65EDFA77 /* Pods_SOCR_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -40,6 +48,14 @@
 		06601529EAF87089B6E46C15 /* Pods-SOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOCR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOCR_Tests/Pods-SOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		08DD0880C368579BDEC66AE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2634AC8F004C437851C4433E /* Pods_SOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2816585A20F8D4FA006CF61A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2816585C20F8D503006CF61A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2816585E20F8D50C006CF61A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		2816586020F8D551006CF61A /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDLFaceSDK.framework; path = ../SOCR/Classes/framework/IDLFaceSDK.framework; sourceTree = "<group>"; };
+		2816586120F8D551006CF61A /* PayEgisFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayEgisFace.framework; path = ../SOCR/Classes/framework/PayEgisFace.framework; sourceTree = "<group>"; };
+		2816586420F8D67A006CF61A /* CWResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CWResource.bundle; sourceTree = "<group>"; };
+		2816586520F8D67B006CF61A /* com.baidu.idl.face.model.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.model.bundle; sourceTree = "<group>"; };
+		2816586620F8D67B006CF61A /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
 		43818C9081CE71A889EF4CE5 /* Pods-SOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOCR_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOCR_Tests/Pods-SOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SOCR_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOCR_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,9 +90,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2816585F20F8D50C006CF61A /* libstdc++.tbd in Frameworks */,
+				2816585D20F8D503006CF61A /* CoreMedia.framework in Frameworks */,
+				2816586220F8D551006CF61A /* IDLFaceSDK.framework in Frameworks */,
+				2816585B20F8D4FA006CF61A /* AVFoundation.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				2816586320F8D551006CF61A /* PayEgisFace.framework in Frameworks */,
 				3601DB070ECA45461F1E1DCA /* Pods_SOCR_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +151,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2816585E20F8D50C006CF61A /* libstdc++.tbd */,
+				2816585C20F8D503006CF61A /* CoreMedia.framework */,
+				2816585A20F8D4FA006CF61A /* AVFoundation.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -189,6 +213,11 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				2816586620F8D67B006CF61A /* com.baidu.idl.face.faceSDK.bundle */,
+				2816586520F8D67B006CF61A /* com.baidu.idl.face.model.bundle */,
+				2816586420F8D67A006CF61A /* CWResource.bundle */,
+				2816586020F8D551006CF61A /* IDLFaceSDK.framework */,
+				2816586120F8D551006CF61A /* PayEgisFace.framework */,
 				7A1D810A0FF6E3F36C50CEAD /* SOCR.podspec */,
 				B7DC1697BCB9ABAB4468E33E /* README.md */,
 				08DD0880C368579BDEC66AE3 /* LICENSE */,
@@ -248,6 +277,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tianNanYiHao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = CYP2Q7U7L3;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,8 +310,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2816586720F8D67B006CF61A /* CWResource.bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				2816586820F8D67B006CF61A /* com.baidu.idl.face.model.bundle in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				2816586920F8D67B006CF61A /* com.baidu.idl.face.faceSDK.bundle in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -504,12 +540,16 @@
 			baseConfigurationReference = 9D866ADAA5ED25C5E183F7C7 /* Pods-SOCR_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CYP2Q7U7L3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SOCR/SOCR-Prefix.pch";
 				INFOPLIST_FILE = "SOCR/SOCR-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.sandbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "260d46f5-1d06-4a22-9026-eb0ae091deea";
+				PROVISIONING_PROFILE_SPECIFIER = sandComm_Dev_Profile;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -519,12 +559,16 @@
 			baseConfigurationReference = C0BF47DBBA0FE9332AC5DB4D /* Pods-SOCR_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CYP2Q7U7L3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SOCR/SOCR-Prefix.pch";
 				INFOPLIST_FILE = "SOCR/SOCR-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.sandbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "260d46f5-1d06-4a22-9026-eb0ae091deea";
+				PROVISIONING_PROFILE_SPECIFIER = sandComm_Dev_Profile;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
