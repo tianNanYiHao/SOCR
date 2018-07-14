@@ -147,12 +147,11 @@ SOCR is available under the MIT license. See the LICENSE file for more info.
 ## 补充
 打出的.framework添加到项目工程中去的时候, 还是报错了: 打出的静态库SOCR.framework中使用了Masonry, 项目工程中也使用了Masonry.
 报错在于两个库还是冲突了,这显然不符合预期,
+>``` 
+>此方法虽可解决,但对于静态库及项目引入同一个三方库出现冲突问题未解决,Q
+>
 >解决方案:在项目工程中,other link 里面存在Masonry的相对路径
 >将项目中的 other link 保留 -ObjC,其他的删除即可
->如图
->
-
-
-![image](https://img-blog.csdn.net/20180712191316197?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2lPU1RpYW5OYW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-
+```
+**解决方式是, 在项目的Podfile文件中, 打开 user_frameworks**
 
