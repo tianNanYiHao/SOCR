@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SandUnPay_Example' do
+  pod 'SandUnPay', :path => '../'
+
+  target 'SandUnPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
