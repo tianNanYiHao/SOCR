@@ -1,0 +1,6 @@
+framework module Pods_SandUnPay_Tests {
+  umbrella header "Pods-SandUnPay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

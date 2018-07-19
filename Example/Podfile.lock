@@ -1,0 +1,16 @@
+PODS:
+  - SandUnPay (0.1.0)
+
+DEPENDENCIES:
+  - SandUnPay (from `../`)
+
+EXTERNAL SOURCES:
+  SandUnPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SandUnPay: 7ee634a2a2bb6668aa88a2fc51caa4c4835e1648
+
+PODFILE CHECKSUM: 2bfc9bb9d323b8810c52734b7ad877159c5ce9fa
+
+COCOAPODS: 1.5.3

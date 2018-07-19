@@ -1,0 +1,6 @@
+framework module Pods_SandUnPay_Example {
+  umbrella header "Pods-SandUnPay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

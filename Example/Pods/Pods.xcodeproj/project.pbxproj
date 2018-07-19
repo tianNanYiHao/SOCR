@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F285E3EA4D0FE75CDDCFDE555ED3FB2 /* SandUnPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18782B5B217902FF84934A13779A0891 /* SandUnPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8A7CDB5A8717A84099058854C5A8F9 /* Pods-SandUnPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B57A760FBA28205E2E4CC9276ECDE /* Pods-SandUnPay_Example-dummy.m */; };
+		1B1826A34454A3C3F1B4BADCEEAD27EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4A69AC18740EB2A2EBA946AD0EDBD0BD /* Pods-SandUnPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4215D9DD914BE3B5AAC2059AA4E65C13 /* Pods-SandUnPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55CA6D30CD86C18623F8789E7B52775B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FE14015CA4B44C4C96A667EAF7986C /* ReplaceMe.m */; };
+		B270126A81CC9B09F27C2C953DC03A90 /* SandUnPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DCE85E2A6C75B6496C431DBC8E7ED6 /* SandUnPay-dummy.m */; };
+		B9F4970FA1BDA3F258D58456B97F6222 /* Pods-SandUnPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D4E01F6D770786B4E0FC8294F0BB17 /* Pods-SandUnPay_Tests-dummy.m */; };
+		BD4D442BAA2BB35CF67D869F8CE7043D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E9B66EA7188C1B1E1C00CD50ADA7A84E /* Pods-SandUnPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A49B53449216946AD59D98E175736E /* Pods-SandUnPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEF3A9C86639E80B4F99E6AB80B80AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89283E45154713082AEE9FDDB4111EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1726F51333A7C92755AAE28729D034;
+			remoteInfo = SandUnPay;
+		};
+		D0C20AF5CC3AED2C5F8B06FE283DDF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4984D14322F934A014CFFD2C77682E6;
+			remoteInfo = "Pods-SandUnPay_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B57A760FBA28205E2E4CC9276ECDE /* Pods-SandUnPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SandUnPay_Example-dummy.m"; sourceTree = "<group>"; };
+		18782B5B217902FF84934A13779A0891 /* SandUnPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SandUnPay-umbrella.h"; sourceTree = "<group>"; };
+		197138F80CCB936738890551D8B28074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2703614E6EFD8CF55364C77C8DFFC067 /* Pods-SandUnPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SandUnPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29B8EAE37AF3F8270F1CAC389925849D /* Pods-SandUnPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandUnPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		31D4E01F6D770786B4E0FC8294F0BB17 /* Pods-SandUnPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SandUnPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		36FE14015CA4B44C4C96A667EAF7986C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SandUnPay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3F12F933BF4EED85A14BC6F5232E8FF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4215D9DD914BE3B5AAC2059AA4E65C13 /* Pods-SandUnPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SandUnPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		44FEC069D03FD1F82425090D3FFB922B /* Pods-SandUnPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SandUnPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		480F1FD9DE1122350F3BEF23E8A76F6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A65F141B7A548D896FAB4079B09572A /* Pods-SandUnPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandUnPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A05A1D4CA40A1D7E5E78470EB801912 /* Pods-SandUnPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SandUnPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76F879B6F4743898B0A3A5AC1B0FA1A3 /* SandUnPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SandUnPay-prefix.pch"; sourceTree = "<group>"; };
+		878417E812D5CD79E6594DAA7CE7E43D /* SandUnPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SandUnPay.framework; path = SandUnPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C16CA3BE5BAC6D1623DA2686475215E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8F489C7F8FA731EF45D913FFD14A0790 /* Pods-SandUnPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandUnPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9013F903124604F54AB9FBAA97492A3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B2F450CD1F8101EE048B22CE718D56B /* Pods-SandUnPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SandUnPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4A49B53449216946AD59D98E175736E /* Pods-SandUnPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SandUnPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B4576D74C51A1A7BCF7437396673331E /* Pods-SandUnPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SandUnPay_Example-resources.sh"; sourceTree = "<group>"; };
+		B8E667BFD7C4979E20C89DC980CEBD29 /* SandUnPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SandUnPay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE32F61DEB49F10DD492F4B298A73367 /* Pods-SandUnPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandUnPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF2241C52243ECD302B4DFE434A4A66D /* Pods-SandUnPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SandUnPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C334B8331F5B0F49B00987DC15D5D8B9 /* Pods_SandUnPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SandUnPay_Tests.framework; path = "Pods-SandUnPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DCE85E2A6C75B6496C431DBC8E7ED6 /* SandUnPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SandUnPay-dummy.m"; sourceTree = "<group>"; };
+		CD4180E19C4637E93851CAA929B5E53D /* Pods-SandUnPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SandUnPay_Tests.modulemap"; sourceTree = "<group>"; };
+		D361F874CC0562DA51D8FB88D28B29B5 /* Pods-SandUnPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SandUnPay_Tests-resources.sh"; sourceTree = "<group>"; };
+		D9411430640F435996D3A7EECC79C9DA /* SandUnPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SandUnPay.modulemap; sourceTree = "<group>"; };
+		DFDA22639875E1E667BE3B0FF0178121 /* SandUnPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SandUnPay.xcconfig; sourceTree = "<group>"; };
+		E27B0A4E4669294E8DF2719881844B77 /* Pods_SandUnPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SandUnPay_Example.framework; path = "Pods-SandUnPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E485F0E6F968FDA453C2F0D50276DF1A /* Pods-SandUnPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SandUnPay_Example.modulemap"; sourceTree = "<group>"; };
+		E9BAF3007969B7F16A8457209D120FC9 /* Pods-SandUnPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SandUnPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909089679D3A5B1079BB591B03C189DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D442BAA2BB35CF67D869F8CE7043D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF6300B78B98551AAF849ECBB7B841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEF3A9C86639E80B4F99E6AB80B80AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A43285F0D0FCD757F438A493FA2AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1826A34454A3C3F1B4BADCEEAD27EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B216DB692B07B75CE17D2FD970A8CF9 /* Pods-SandUnPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				197138F80CCB936738890551D8B28074 /* Info.plist */,
+				E485F0E6F968FDA453C2F0D50276DF1A /* Pods-SandUnPay_Example.modulemap */,
+				2703614E6EFD8CF55364C77C8DFFC067 /* Pods-SandUnPay_Example-acknowledgements.markdown */,
+				9B2F450CD1F8101EE048B22CE718D56B /* Pods-SandUnPay_Example-acknowledgements.plist */,
+				002B57A760FBA28205E2E4CC9276ECDE /* Pods-SandUnPay_Example-dummy.m */,
+				BF2241C52243ECD302B4DFE434A4A66D /* Pods-SandUnPay_Example-frameworks.sh */,
+				B4576D74C51A1A7BCF7437396673331E /* Pods-SandUnPay_Example-resources.sh */,
+				4215D9DD914BE3B5AAC2059AA4E65C13 /* Pods-SandUnPay_Example-umbrella.h */,
+				8F489C7F8FA731EF45D913FFD14A0790 /* Pods-SandUnPay_Example.debug.xcconfig */,
+				29B8EAE37AF3F8270F1CAC389925849D /* Pods-SandUnPay_Example.release.xcconfig */,
+			);
+			name = "Pods-SandUnPay_Example";
+			path = "Target Support Files/Pods-SandUnPay_Example";
+			sourceTree = "<group>";
+		};
+		197F04EE3072DEF7099FD73C8C926C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27B0A4E4669294E8DF2719881844B77 /* Pods_SandUnPay_Example.framework */,
+				C334B8331F5B0F49B00987DC15D5D8B9 /* Pods_SandUnPay_Tests.framework */,
+				878417E812D5CD79E6594DAA7CE7E43D /* SandUnPay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD0508938A05CBD59CCB195F36974A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F12F933BF4EED85A14BC6F5232E8FF9 /* Info.plist */,
+				D9411430640F435996D3A7EECC79C9DA /* SandUnPay.modulemap */,
+				DFDA22639875E1E667BE3B0FF0178121 /* SandUnPay.xcconfig */,
+				C5DCE85E2A6C75B6496C431DBC8E7ED6 /* SandUnPay-dummy.m */,
+				76F879B6F4743898B0A3A5AC1B0FA1A3 /* SandUnPay-prefix.pch */,
+				18782B5B217902FF84934A13779A0891 /* SandUnPay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SandUnPay";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E8F1186B0C4B6F3B1C7EDA2A0E59CEB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C16CA3BE5BAC6D1623DA2686475215E /* LICENSE */,
+				9013F903124604F54AB9FBAA97492A3D /* README.md */,
+				B8E667BFD7C4979E20C89DC980CEBD29 /* SandUnPay.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		62026CC8A30FFC28C62C68B6EB83BC3C /* SandUnPay */ = {
+			isa = PBXGroup;
+			children = (
+				36FE14015CA4B44C4C96A667EAF7986C /* ReplaceMe.m */,
+				5E8F1186B0C4B6F3B1C7EDA2A0E59CEB /* Pod */,
+				2BD0508938A05CBD59CCB195F36974A9 /* Support Files */,
+			);
+			name = SandUnPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		703626F3A3B114CE97016AE4AB235418 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62026CC8A30FFC28C62C68B6EB83BC3C /* SandUnPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				703626F3A3B114CE97016AE4AB235418 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				197F04EE3072DEF7099FD73C8C926C38 /* Products */,
+				870A0251B5D0FE0087DE2FF5F4D31780 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		870A0251B5D0FE0087DE2FF5F4D31780 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B216DB692B07B75CE17D2FD970A8CF9 /* Pods-SandUnPay_Example */,
+				8EBF5442C3FBB416C4E93316C96463AE /* Pods-SandUnPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8EBF5442C3FBB416C4E93316C96463AE /* Pods-SandUnPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				480F1FD9DE1122350F3BEF23E8A76F6A /* Info.plist */,
+				CD4180E19C4637E93851CAA929B5E53D /* Pods-SandUnPay_Tests.modulemap */,
+				6A05A1D4CA40A1D7E5E78470EB801912 /* Pods-SandUnPay_Tests-acknowledgements.markdown */,
+				44FEC069D03FD1F82425090D3FFB922B /* Pods-SandUnPay_Tests-acknowledgements.plist */,
+				31D4E01F6D770786B4E0FC8294F0BB17 /* Pods-SandUnPay_Tests-dummy.m */,
+				E9BAF3007969B7F16A8457209D120FC9 /* Pods-SandUnPay_Tests-frameworks.sh */,
+				D361F874CC0562DA51D8FB88D28B29B5 /* Pods-SandUnPay_Tests-resources.sh */,
+				A4A49B53449216946AD59D98E175736E /* Pods-SandUnPay_Tests-umbrella.h */,
+				4A65F141B7A548D896FAB4079B09572A /* Pods-SandUnPay_Tests.debug.xcconfig */,
+				BE32F61DEB49F10DD492F4B298A73367 /* Pods-SandUnPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-SandUnPay_Tests";
+			path = "Target Support Files/Pods-SandUnPay_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55D17C2BF57AFFA13C57BE3626758F60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B66EA7188C1B1E1C00CD50ADA7A84E /* Pods-SandUnPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B75108FA5FC2BC43BAF1DBBD9B7A11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A69AC18740EB2A2EBA946AD0EDBD0BD /* Pods-SandUnPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A475F16A2405F6EA703DC7F95580F58B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F285E3EA4D0FE75CDDCFDE555ED3FB2 /* SandUnPay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20E0F608918CDD4550A8629E1BEC2F23 /* Pods-SandUnPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C208336FB8F59C0C8BD0EFC7765E9E7 /* Build configuration list for PBXNativeTarget "Pods-SandUnPay_Tests" */;
+			buildPhases = (
+				9D97BD1218F27391F2886E813773AFB8 /* Sources */,
+				F7A43285F0D0FCD757F438A493FA2AC5 /* Frameworks */,
+				55D17C2BF57AFFA13C57BE3626758F60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F49B66877F85A3805885B453192AA87 /* PBXTargetDependency */,
+			);
+			name = "Pods-SandUnPay_Tests";
+			productName = "Pods-SandUnPay_Tests";
+			productReference = C334B8331F5B0F49B00987DC15D5D8B9 /* Pods_SandUnPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF1726F51333A7C92755AAE28729D034 /* SandUnPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA2DE90E1C1E25EA2D0F65E4569E0C7 /* Build configuration list for PBXNativeTarget "SandUnPay" */;
+			buildPhases = (
+				260FD93624C5CE19EB6D46CFC25633A4 /* Sources */,
+				909089679D3A5B1079BB591B03C189DB /* Frameworks */,
+				A475F16A2405F6EA703DC7F95580F58B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandUnPay;
+			productName = SandUnPay;
+			productReference = 878417E812D5CD79E6594DAA7CE7E43D /* SandUnPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4984D14322F934A014CFFD2C77682E6 /* Pods-SandUnPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA89A3B3975F4405DE59F9C455A8F819 /* Build configuration list for PBXNativeTarget "Pods-SandUnPay_Example" */;
+			buildPhases = (
+				20331ADCDB32C61D2B7795408FE4536E /* Sources */,
+				E6AF6300B78B98551AAF849ECBB7B841 /* Frameworks */,
+				81B75108FA5FC2BC43BAF1DBBD9B7A11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939D876AC175D03C669B23D259CB3D41 /* PBXTargetDependency */,
+			);
+			name = "Pods-SandUnPay_Example";
+			productName = "Pods-SandUnPay_Example";
+			productReference = E27B0A4E4669294E8DF2719881844B77 /* Pods_SandUnPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 197F04EE3072DEF7099FD73C8C926C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4984D14322F934A014CFFD2C77682E6 /* Pods-SandUnPay_Example */,
+				20E0F608918CDD4550A8629E1BEC2F23 /* Pods-SandUnPay_Tests */,
+				CF1726F51333A7C92755AAE28729D034 /* SandUnPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20331ADCDB32C61D2B7795408FE4536E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8A7CDB5A8717A84099058854C5A8F9 /* Pods-SandUnPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260FD93624C5CE19EB6D46CFC25633A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CA6D30CD86C18623F8789E7B52775B /* ReplaceMe.m in Sources */,
+				B270126A81CC9B09F27C2C953DC03A90 /* SandUnPay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D97BD1218F27391F2886E813773AFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F4970FA1BDA3F258D58456B97F6222 /* Pods-SandUnPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F49B66877F85A3805885B453192AA87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SandUnPay_Example";
+			target = E4984D14322F934A014CFFD2C77682E6 /* Pods-SandUnPay_Example */;
+			targetProxy = D0C20AF5CC3AED2C5F8B06FE283DDF70 /* PBXContainerItemProxy */;
+		};
+		939D876AC175D03C669B23D259CB3D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SandUnPay;
+			target = CF1726F51333A7C92755AAE28729D034 /* SandUnPay */;
+			targetProxy = 89283E45154713082AEE9FDDB4111EDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C78EC4D241CC6D37AD91A0D3294B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B8EAE37AF3F8270F1CAC389925849D /* Pods-SandUnPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SandUnPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SandUnPay_Example/Pods-SandUnPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A7D52E9E55147F57B0909C350739547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE32F61DEB49F10DD492F4B298A73367 /* Pods-SandUnPay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SandUnPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SandUnPay_Tests/Pods-SandUnPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FCD273EB80B996DF92A4A4C9DF32493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A65F141B7A548D896FAB4079B09572A /* Pods-SandUnPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SandUnPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SandUnPay_Tests/Pods-SandUnPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72792DF5750C49D9BBDFF4C15C264F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDA22639875E1E667BE3B0FF0178121 /* SandUnPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SandUnPay/SandUnPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SandUnPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SandUnPay/SandUnPay.modulemap";
+				PRODUCT_MODULE_NAME = SandUnPay;
+				PRODUCT_NAME = SandUnPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BEE3374506135F9BAF2C62C26E8E2D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F489C7F8FA731EF45D913FFD14A0790 /* Pods-SandUnPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SandUnPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SandUnPay_Example/Pods-SandUnPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA98278F990AD31F5710E037C3A125EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDA22639875E1E667BE3B0FF0178121 /* SandUnPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SandUnPay/SandUnPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SandUnPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SandUnPay/SandUnPay.modulemap";
+				PRODUCT_MODULE_NAME = SandUnPay;
+				PRODUCT_NAME = SandUnPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA2DE90E1C1E25EA2D0F65E4569E0C7 /* Build configuration list for PBXNativeTarget "SandUnPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA98278F990AD31F5710E037C3A125EC /* Debug */,
+				72792DF5750C49D9BBDFF4C15C264F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C208336FB8F59C0C8BD0EFC7765E9E7 /* Build configuration list for PBXNativeTarget "Pods-SandUnPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCD273EB80B996DF92A4A4C9DF32493 /* Debug */,
+				1A7D52E9E55147F57B0909C350739547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA89A3B3975F4405DE59F9C455A8F819 /* Build configuration list for PBXNativeTarget "Pods-SandUnPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE3374506135F9BAF2C62C26E8E2D18 /* Debug */,
+				12C78EC4D241CC6D37AD91A0D3294B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
