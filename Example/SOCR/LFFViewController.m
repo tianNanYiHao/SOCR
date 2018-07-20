@@ -7,7 +7,7 @@
 //
 
 #import "LFFViewController.h"
-
+#import <SOCR/SOCR.h>
 @interface LFFViewController ()
 
 @end
@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    SOCR *s = [[SOCR alloc] init];
+    [s loadSOCRwith:self];
 }
 
 - (void)didReceiveMemoryWarning
