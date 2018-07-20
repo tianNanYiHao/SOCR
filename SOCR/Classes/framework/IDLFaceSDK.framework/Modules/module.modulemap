@@ -1,6 +1,0 @@
-framework module IDLFaceSDK {
-  umbrella header "IDLFaceSDK.h"
-
-  export *
-  module * { export * }
-}
