@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0983E69C6D4D80D1200E1BC5 /* Pods_SOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D3D5A02EC9F1C92D739B721 /* SOCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SOCR.podspec; path = ../SOCR.podspec; sourceTree = "<group>"; };
+		1D3D5A02EC9F1C92D739B721 /* SOCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SOCR.podspec; path = ../SOCR.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		480C9B597A6CE124CA972DF9 /* Pods-SOCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOCR_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4B0B36A46B74770665DB70A0 /* Pods_SOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5641B1C5AC435164C467C858 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5641B1C5AC435164C467C858 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SOCR_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOCR_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E3004E521D03AB9E0633F14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E3004E521D03AB9E0633F14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C315842A7BAAB523E7B5190C /* Pods-SOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOCR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOCR_Tests/Pods-SOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E8EE87A9A27EE67F1F7422FF /* Pods-SOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOCR_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOCR_Tests/Pods-SOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD4C5A72B660AE6DDAF878E3 /* Pods-SOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOCR_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				17EF33047C7A12416C20AB85 /* [CP] Embed Pods Frameworks */,
+				589E0540002B3782CAD4572B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +248,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tianNanYiHao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = CYP2Q7U7L3;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -301,11 +306,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SOCR/SOCR.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SOCR.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -346,6 +351,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589E0540002B3782CAD4572B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SOCR/SOCR.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SOCR.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOCR_Example/Pods-SOCR_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,12 +508,17 @@
 			baseConfigurationReference = 480C9B597A6CE124CA972DF9 /* Pods-SOCR_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CYP2Q7U7L3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SOCR/SOCR-Prefix.pch";
 				INFOPLIST_FILE = "SOCR/SOCR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.sandbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "260d46f5-1d06-4a22-9026-eb0ae091deea";
+				PROVISIONING_PROFILE_SPECIFIER = sandComm_Dev_Profile;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -500,12 +528,17 @@
 			baseConfigurationReference = FD4C5A72B660AE6DDAF878E3 /* Pods-SOCR_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CYP2Q7U7L3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SOCR/SOCR-Prefix.pch";
 				INFOPLIST_FILE = "SOCR/SOCR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.sandbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "260d46f5-1d06-4a22-9026-eb0ae091deea";
+				PROVISIONING_PROFILE_SPECIFIER = sandComm_Dev_Profile;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
