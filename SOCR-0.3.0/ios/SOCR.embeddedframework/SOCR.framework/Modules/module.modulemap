@@ -1,6 +1,0 @@
-framework module SOCR {
-  umbrella header "SOCR.h"
-
-  export *
-  module * { export * }
-}
